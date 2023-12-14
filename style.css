@@ -9,10 +9,6 @@ body {
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #1F2937;
     padding: 10px 180px 10px 180px;
 }
 
@@ -21,7 +17,7 @@ ul {
     margin: 0;
     list-style-type: none;
     display: flex;
-    gap: 15px;
+    gap: 25px;
 }
 
 a {
@@ -34,4 +30,35 @@ a {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+}
+
+.header,
+.content {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    padding: 50px 180px 50px 180px;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.image {
+    width: 550px;
+    height: 200px;
+    background-color: grey;
 }
